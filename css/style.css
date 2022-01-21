@@ -15,7 +15,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #21E895;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -564,13 +564,6 @@ header {
   transition: 0.3s;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  /* background-color: #128c77;
-  color: var(--clr-dark); */
-  /* font-weight: var(--fw-bold); */
-  
-}
 
 /* Create an active/current "tab button" class */
 .tab button.active {
