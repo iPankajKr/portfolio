@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Dad Jokes</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        
+        <!-- Custom Font -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Random <strong>Dad Jokes</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Built busing ReactJS</p>
+            <img src="img/portfolio-02.png" alt="Tesla Car" class="intro__img">
+            <a href="https://shmd4.csb.app/" class="btn btn-portfolio mt-1" target="_blank">Live Preview</a>
+        </section> 
+
+
+        <!-- Portfolio Detail -->
+        <section class="portfolio__main">
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'general')" id="defaultOpen">General Info</button>
+                <button class="tablinks" onclick="openTab(event, 'tech')">Technologies Used</button>
+                <!-- <button class="tablinks" onclick="openTab(event, 'acknowledgements')">Acknowledgements</button> -->
+              </div>
+              
+              <div id="general" class="tabcontent">
+                <h3>General Info</h3>
+                <p>Simple React app that fetches random Dad Jokes from <a href="https://icanhazdadjoke.com/" target="_blank">icanhazdadjoke</a>.</p>
+              </div>
+              
+              <div id="tech" class="tabcontent">
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li>React</li>
+                </ul>
+              </div>
+        </section>
+        
+        <section>
+            <div class="portfolio__main navigator">
+                <p><a href="./index.html#work"><i class="fa fa-arrow-left"></i> Back to <strong>Portfolio</strong></a></p>
+            </div>
+        </section>
+        
+        
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:contactpankajkr@gmail.com" class="footer__link">contactpankajkr@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/iPankajKr" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/ipankajkr/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/i.pankajkr/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
